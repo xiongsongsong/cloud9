@@ -79,6 +79,7 @@ libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxc
 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 \
 fonts-ipafont-gothic fonts-wqy-zenhei fonts-thai-tlwg fonts-kacst ttf-freefont \
 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget
+RUN echo -e "set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1\nset enc=utf8\nset fencs=utf8,gbk,gb2312,gb18030" > ~/.vimrc
 # ------------------------------------------------------------------------------
 # Expose ports.
 # ------------------------------------------------------------------------------
