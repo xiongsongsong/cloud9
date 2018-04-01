@@ -2,7 +2,7 @@
 # Based on work at https://github/mst3v3nsn/cloud9-ide.git
 # ------------------------------------------------------------------------------
 FROM ubuntu:16.04
-MAINTAINER mwsteven@odu.edu
+MAINTAINER xiongsongsong@gmail.com 
 # ------------------------------------------------------------------------------
 # Change HOME for permission fix
 # ------------------------------------------------------------------------------
